@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body class="hidden">
+  <div class="loading-area">
+
+    <div class="Buttons"></div>
+</div>
+  <header class="d-flex justify-content-center align-item-center pt-2 header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav-list">
+          <img src="./images/logo/logo.svg" alt="logo"
+            style="height: 80px;width: 150px; margin-left: 50px;margin-right: 50px;">
+          <li class="nav-item dropdown">
+            <a href="index.html">HOME
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">ABOUT
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="dropbtn">Services
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <div class="dropdown-content">
+              <a href="#"> Service</a>
+              <a href="#">Single Service</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#">PORTFOLIO
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="#"> Portfolio</a>
+              <a href="#">Single Portfolio</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#">BLOG
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Blog</a>
+              <a href="#">Single Blog</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#">CONTACTS
+            </a>
+          </li>
+          <div class="cv-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <g clip-path="url(#clip0_25_74)">
+                <path d="M12 3V15" stroke="#0F141C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M16 11L12 15L8 11" stroke="#0F141C" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path
+                  d="M3 12C3 14.3869 3.94821 16.6761 5.63604 18.364C7.32387 20.0518 9.61305 21 12 21C14.3869 21 16.6761 20.0518 18.364 18.364C20.0518 16.6761 21 14.3869 21 12"
+                  stroke="#0F141C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+            </svg>
+          </div>
+          <i class="fa-solid fa-bars" style="font-size: 30px;padding-left: 3rem;padding-top: 25px;"></i>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section
+      style="background-image: url('images/header/footer-bg.jpg');width: 100%;height: 750px;background-repeat: no-repeat;background-size: cover;">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex align-items-center">
+            <div class="col-2" >
+              <ul>
+                <img src="./images/header/media-line-top.svg" alt="">
+                <li class="mt-3">
+                  <a href="#" style="width: 48px;
+                height: 48px;
+                text-align: center;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: -23px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                      style="height: 20px;width:20px;  "><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#f1f2f4"
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a href="#" style="width: 48px;
+                height: 48px;
+                text-align: center;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: -23px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="height: 20px;width: 20px;"
+                      viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#f0f2f4"
+                        d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a href="#" style="width: 48px;
+                height: 48px;
+                text-align: center;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: -23px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                      style="height: 20px;"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#f9fafb"
+                        d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="mt-3">
+                  <a href="#" style="width: 48px;
+                height: 48px;
+                text-align: center;
+                display: block;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: -23px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                      style="height: 20px;"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#f5f5f5"
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                    </svg>
+                  </a>
+                </li>
+                <img src="./images/header/media-line-bottom.svg" alt="" class="mt-3">
+              </ul>
+            </div>
+            <div class="col-6 main-text">
+              <p class="text-center" style="font-size: 36px;color: #fff;padding-top: 2rem;">Hello, I am
+                <span>👋</span>
+              </p>
+              <h1 style="text-align: center;color: #fff;font-size: 70px;"> <span> Web</span>Devploper</h1>
+              <img src="./images/header/girl.png" alt="" style="width: 700px;height: 610px;object-fit: contain;"
+                class="img-main-1 me-auto">
+              <img src="./images/header/Polygon-arrow.svg" alt="" class="img-main-2">
+              <div style="background-color: #FFC83D;width: 150px;border-radius: 20px;height: 60px;" class="hh">
+                <h4 class="text-center pt-3">Raj Ajudiya</h4>
+                </div>
+              <img src="./images/logo/arrow-main.png" alt="" style="position: absolute;left: 660px;
+    top: 650px;">
+            </div>
+
+            <div class="col-4" style="margin-left: 6rem;">
+              <div class="project">
+                <h2 class="text-center" style="color: #f1f1f1;">700+</h2>
+                <p class="text-center" style="color: #f1f1f1;">PROJECT <br>COMPLETED</p>
+              </div>
+              <div class="ani text-center">
+                <img src="./images/header/flower.png" alt="" class="flower">
+                <h2 style="font-style: 20px;text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;">A
+                  <span style="color: #fff;">
+                    Freelance Designer and <br> Developer based in USA.
+                  </span>
+                  <br> I strives to build immersive <br>and beautiful web <br>applications through <br> carefully
+                  crafted used- <br>
+                  centric design.
+                </h2>
+              </div>
+              <div class="d-flex mm">
+
+                <div class="mouse">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512" style="height: 90px;width: 20px;margin-left: 13px;"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#FFD43B"
+                      d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z" />
+                  </svg>
+                </div>
+                <span style="color: #fff;margin-top: 7rem; margin-left: 2rem;">SCROLL <br>DOWN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: #171B22;border-bottom: 1px solid #fff;">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-6 relative" style="margin-top: 4rem;">
+              <img src="./images/header/girl-img2.png" alt="">
+              <div class="hel">
+                <img src="./images/header/years-img.png" alt="" style="position: absolute;bottom: 70px;left: 250px;">
+                <div class="digit"
+                  style="font-size: 100px;  position: absolute;bottom: 190px;left: 350px;font-weight: bolder;">6</div>
+                <div class="dig text-center"
+                  style="position: absolute;bottom: 110px;left: 300px;text-transform: uppercase;font-size: 14px;color: #fff;">
+                  Year's of
+                  <br>
+                  Working
+
+                  expericence
+
+                </div>
+              </div>
+            </div>
+            <div class="col-6" style="margin-top: 4rem;">
+              <div class="box">
+                <div class="d-flex justify-content-center align-items-center">
+
+                  <div class="award-circle">
+                    <img src="./images/header/trophy.png" alt="">
+                  </div>
+                  <div class="tt" style="color: #fff;">
+                    <h3 class="ps-5">Independent Of The Year</h3>
+                    <p class="ps-5">Annual Awards 2025</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 style="color: #858586;margin-top: 2rem;">Hello! I’m
+                  <span style="color: #fff;">Jessica</span>
+                  a self-taught & award-winning
+                  <span style="color: #fff;">Web Designer & Developer</span>
+                  with over
+                  <span style="color: #fff;"> fifteen years of work experience.</span>
+                  I started in my children’s room and got pro at renowned
+                  <span style="color: #fff;">Ren Tech</span>
+                  Agencies.
+                </h3>
+                <p style="color: #fff; margin-top: 2rem;">Urna neque sollicitudin odio tempus eleifend est. Vestibulum
+                  <br>dictum turpis diam arcu rutrum interdum aliquet iaculis.
+                </p>
+                <p style="text-transform: uppercase; color: #FFC83D;font-weight: 500;font-size: 25px;">explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;width: 30px;"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#FFD43B"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section style="background-color: #171B22;">
+      <div class="container">
+        <div class="row">
+          <div class="marquee">
+            <h3>
+              <div class="marquee-wrapper">
+                <div class="marquee-title">
+
+                  <img src="./images/logo/brand-logo1.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem;margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo2.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo3.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo4.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo5.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo6.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo7.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo8.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+
+                </div>
+
+                <div class="marquee-title">
+
+                  <img src="./images/logo/brand-logo1.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem;margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo2.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo3.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo4.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo5.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo6.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo7.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo8.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+
+                </div>
+
+                <div class="marquee-title">
+
+                  <img src="./images/logo/brand-logo1.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem;margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo2.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo3.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo4.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo5.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo6.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo7.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo8.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+
+                </div>
+
+                <div class="marquee-title">
+
+                  <img src="./images/logo/brand-logo1.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem;margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo2.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo3.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo4.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo5.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo6.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo7.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+                  <img src="./images/logo/brand-logo8.png" alt=""
+                    style="border: 1px solid gray;border-radius: 50px;padding: 1rem 3rem 1rem 3rem; margin-right: 3rem;">
+
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: #0F141C;">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-6" style="margin-top: 4rem;">
+              <h5 style="background: var(--13, linear-gradient(90deg, #FF7D61 0%, #FFDB59 100%));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 20px;">OUR SERVICES</h5>
+              <h2 style="color: #fff;font-size: 48px;
+              font-weight: 700;
+              line-height: 64px;
+              padding-bottom: 30px;">Solution We <br>Provide.</h2>
+              <p style="color: #fff;font-size: 18px;
+              font-weight: 300;
+              line-height: 30px;">Urna neque sollicitudin odio tempus <br>eleifend est. Vestibulum dictum turpis
+                <br>diam arcu rutrum interdum aliquet iaculis.
+              </p>
+              <div class="d-flex">
+                <div style="width: 190px;
+                height: 190px;
+                border-radius: 50%;
+                background-color: #FFDB59;
+                display: flex;
+                align-items: center;
+                justify-content: center;position: relative;" class="btn">
+                  <p style="text-align: center;
+                  font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;
+                  letter-spacing: 2px;
+                  max-width: 100px;">View My Work</p>
+                </div>
+                <div style="width: 190px;
+                height: 190px;
+                border-radius: 50%;
+                background-color: black;color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;position: absolute;bottom: -1620px;left: 250px;">
+                  <p style="text-align: center;
+                  font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;
+                  letter-spacing: 2px;
+                  max-width: 100px;">Contact Me</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-6">
+              <div class="faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title"
+                  for="faq-drawer">Visual Design</label>
+                <div class="faq-drawer__content-wrapper">
+                  <div class="faq-drawer__content">
+                    <p style="color: #858586;">
+                      Project systematization is something I place a lot of emphasis on. My passion Design Systems.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#" style="color: white;text-decoration: none;">
+                          Interface Design
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        Creating Design Systems
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        UI Kits
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        User Experience Development
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title"
+                  for="faq-drawer-2">Design Systems</label>
+                <div class="faq-drawer__content-wrapper">
+                  <div class="faq-drawer__content">
+                    <p style="color: #858586;">
+                      Project systematization is something I place a lot of emphasis on. My passion Design Systems.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#" style="color: white;text-decoration: none;">
+                          Interface Design
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        Creating Design Systems
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        UI Kits
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        User Experience Development
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title"
+                  for="faq-drawer">Web Design & Development</label>
+                <div class="faq-drawer__content-wrapper">
+                  <div class="faq-drawer__content">
+                    <p style="color: #858586;">
+                      Project systematization is something I place a lot of emphasis on. My passion Design Systems.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#" style="color: white;text-decoration: none;">
+                          Interface Design
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        Creating Design Systems
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        UI Kits
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        User Experience Development
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title"
+                  for="faq-drawer-3">Design Systems</label>
+                <div class="faq-drawer__content-wrapper">
+                  <div class="faq-drawer__content">
+                    <p style="color: #858586;">
+                      Project systematization is something I place a lot of emphasis on. My passion Design Systems.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#" style="color: white;text-decoration: none;">
+                          Interface Design
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        Creating Design Systems
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        UI Kits
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" style="color: white; text-decoration: none;"></a>
+                        User Experience Development
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="marquee">
+        <h3>
+          <div class="marquee-wrapper">
+            <div class="marquee-title">
+              / We think <span class="text-stroke-black">creative</span>
+              &amp; make them
+              <span class="text-stroke-black">easy</span> / We think
+              <span class="text-stroke-black">creative</span>
+              &amp; make them
+              <span class="text-stroke-black">easy</span>
+            </div>
+            <div class="marquee-title">
+              / We think <span class="text-stroke-black">creative</span>
+              &amp; make them
+              <span class="text-stroke-black">easy</span> / We think
+              <span class="text-stroke-black">creative</span>
+              &amp; make them
+              <span class="text-stroke-black">easy</span>
+            </div>
+          </div>
+        </h3>
+    </section>
+
+    <!-- skills -->
+    <section class="padding-y" id="skills" style="background-color: #0F141C;">
+      <div class="custom-container">
+          <div class="row">
+              <div class="skill-wrapper p-2" style="margin-left: 330px;">
+                  <h1
+                      style="font-size: 48px;font-weight: 600;line-height: 60px;letter-spacing: -0.2px;margin-bottom: 33px;color: #f1f1f1;">
+                      My <span>Advantages</span>
+                  </h1>
+                  <div class="skill-content">
+                      <ul class="d-flex list-unstyled">
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/html.jfif" class="d-block" alt="html" height="100px"
+                                          width="100px">
+                                  </div>
+                              </div>
+                              <p>HTML</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/css.jfif" alt="css" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>CSS</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/bt.jfif" alt="bootstrap" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>BOOTSTRAP</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="." alt="sass" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>SASS</p>
+                          </li>
+                      </ul>
+                      <ul class="d-flex list-unstyled">
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/c++.jfif" alt="c++" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>C++</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/java.jfif" alt="java" height="85px" width="85px">
+                                  </div>
+                              </div>
+                              <p>JAVA</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/js.jfif" alt="JS" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>JS</p>
+                          </li>
+                          <li class="text-center me-4" data-aos="zoom-in">
+                              <div class="s-content d-flex align-items-center justify-content-center"
+                                  style="width: 175px;height: 235px;padding: 54px 0 48px 0;margin-bottom: 20px;">
+                                  <div>
+                                      <img src="./images/logo/c.jfif" alt="c" height="100px" width="100px">
+                                  </div>
+                              </div>
+                              <p>C</p>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section style="background-color: #0F141C; ">
+    <div class="container mar text-center">
+      <div class="row">
+        <h4>DISCOVER OUR CASES
+
+        </h4>
+        <h2 style="color: #f1f1f1;text-align: center; font-size: 48px;font-weight: 600;">Latest Projects.</h2>
+        <div>
+          <ul class="d-flex justify-content-between align-items-center mb-5">
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                all
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                content
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                gallery
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                html video
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                yt video
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                vimeo video
+              </a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#" style="text-decoration: none;color: grey;text-transform: uppercase;" data-aos="fade-left" data-aos-duration="1000">
+                sound cloud
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <div class="col-6" data-aos="fade-right" data-aos-duration="1500">
+            <img src="./images/logo/tab-content-img.jpg" alt="" style="border-radius: 50px;" data-aos="zoom-in">
+            <P href="#" style="color: #858586;padding-top: 2rem;">CONTENT</P>
+            <p style="color: #f1f1f1;">UNIQUR PRODUCT DESIGN</p>
+          </div>
+          <div class="col-6" data-aos="fade-left" data-aos-duration="1500">
+            <img src="./images/logo/gallery-tab-img.jpg" alt="" style="border-radius: 50px;" data-aos="zoom-in">
+            <P href="#" style="color: #858586;padding-top: 2rem;">CONTENT</P>
+            <p style="color: #f1f1f1;">UNIQUR PRODUCT DESIGN</p>
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class="col-6" >
+            <img src="./images/logo/html-video-img.jpg" alt="" style="border-radius: 50px;" data-aos="zoom-in">
+            <P href="#" style="color: #858586;padding-top: 2rem;">CONTENT</P>
+            <p style="color: #f1f1f1;">UNIQUR PRODUCT DESIGN</p>
+          </div>
+          <div class="col-6">
+            <img src="./images/logo/yt-video-img.jpg" alt="" style="border-radius: 50px;" data-aos="zoom-in">
+            <P href="#" style="color: #858586;padding-top: 2rem;">CONTENT</P>
+            <p style="color: #f1f1f1;">UNIQUR PRODUCT DESIGN</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section style="background-color: #0F141C;">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between">
+            <div class="" style="margin-top: 5rem;">
+              <p style="padding: 0;
+              background: var(--13, linear-gradient(90deg, #FF7D61 0%, #FFDB59 100%));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              -webkit-animation: hue 10s infinite linear;" data-aos="zoom-in">NEWS & LATEST UPDATES
+
+              </p>
+              <h2 style="color: #fff;font-size: 48px;
+              font-weight: 700;
+              line-height: 64px;
+              padding-bottom: 30px;" data-aos="zoom-in">Check Inside Story.
+
+              </h2>
+            </div>
+            <div>
+              <a href="#" class="button" style="margin-top: 6rem;" data-aos="zoom-in">See More News
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                  style="height: 30px;"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path fill="#212121"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="">
+            <div class="bx-1 d-flex justify-content-center align-items-center">
+              <div class="col-4" data-aos="fade-right" data-aos-duration="1000">
+
+                <img src="./images/logo/news-img1.jpg" alt="" style="border-radius:40px;height: 270px;width: 356px;">
+                <p style="color: #909090;    font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                padding-top: 30px;">APRIL 25, 2024 _ DEVELOPMENT</p>
+                <h3 style="color: #ffff;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 48px;">Does My Website Need <br>a Blog?</h3>
+                <p style="text-transform: uppercase; color: #FFC83D;font-weight: 500;font-size: 20px;">explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;width: 30px;"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#FFD43B"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                  </svg>
+                </p>
+              </div>
+
+              <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
+
+                <img src="./images/logo/news-img1.jpg" alt="" style="border-radius:40px;height: 356px;width: 356px;">
+                <p style="color: #909090;    font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                padding-top: 30px;">APRIL 25, 2024 _ DEVELOPMENT</p>
+                <h3 style="color: #ffff;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 48px;">Best 10 App for Digital <br>Transformation</h3>
+                <p style="text-transform: uppercase; color: #FFC83D;font-weight: 500;font-size: 20px;">explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;width: 30px;"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#FFD43B"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                  </svg>
+                </p>
+              </div>
+
+              <div class="col-4" data-aos="fade-left" data-aos-duration="1000">
+
+                <img src="./images/logo/news-img1.jpg" alt="" style="border-radius:40px;width: 356px;height: 270px;">
+                <p style="color: #909090;    font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                padding-top: 30px;">APRIL 25, 2024 _ DEVELOPMENT</p>
+                <h3 style="color: #ffff;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 48px;">A Simple Social Media <br>Checklist</h3>
+                <p style="text-transform: uppercase; color: #FFC83D;font-weight: 500;font-size: 20px;">explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;width: 30px;"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path fill="#FFD43B"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                  </svg>
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- <div class="container"> -->
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
+        <div class="marquee" style="position: relative;padding-top: 10rem;padding-bottom: 10rem;">
+          <h3>
+            <div class="marquee-wrapper">
+              <div class="marquee-title">
+                / We think <span class="text-stroke-black">creative</span>
+                &amp; make them
+                <span class="text-stroke-black">easy</span> / We think
+                <span class="text-stroke-black">creative</span>
+                &amp; make them
+                <span class="text-stroke-black">easy</span>
+              </div>
+              <div class="marquee-title">
+                / We think <span class="text-stroke-black">creative</span>
+                &amp; make them
+                <span class="text-stroke-black">easy</span> / We think
+                <span class="text-stroke-black">creative</span>
+                &amp; make them
+                <span class="text-stroke-black">easy</span>
+              </div>
+            </div>
+          </h3>
+        </div>
+
+        <div class="im">
+          <img src="./images/logo/client-bounce-img1.jpg" alt="" style="border-radius: 50%;    top: -370px;
+    left: 150px;position: absolute;">
+        </div>
+        <div class="im">
+          <img src="./images/logo/client-bounce-img2.jpg" alt="" style="border-radius: 50%;    top: -270px;
+  left: 450px;position: absolute;">
+        </div>
+        <div class="im">
+          <img src="./images/logo/client-bounce-img3.jpg" alt="" style="border-radius: 50%;    top: -370px;
+left: 750px;position: absolute;">
+        </div>
+        <div class="im">
+          <img src="./images/logo/client-bounce-img4.jpg" alt="" style="border-radius: 50%;    top: -270px;
+left: 1000px;position: absolute;">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section style="background-image: url('./images/header/footer-bg.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex">
+            <div class="col-4" style="margin-top: 3rem;" data-aos="fade-right" data-aos-duration="1000">
+              <img src="./images/logo/logo.svg" alt="">
+              <p style="color: #909090;">When do they work well, and when do <br>they on us and finally, when do we
+                <br>actually need how can we <br>avoid them.
+              </p>
+              <ul>
+                <li>
+                  <a href="#" style="color: #f1f1f1;text-decoration: none;font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">
+                    +1 451 356 888
+                  </a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1;text-decoration: none;font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">
+                    biogi@mail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1;text-decoration: none;font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">
+                    121 Parkview St. California,<br> USA
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2" style="margin-top: 3rem;" data-aos="fade-up-right" data-aos-duration="1000">
+              <ul>
+                <h5 style="color: #f1f1f1;padding-bottom: 3rem;">USEFUL LINKS</h5>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">About</a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Services</a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Blog</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-2" style="margin-top: 3rem;" data-aos="fade-up-left" data-aos-duration="1000">
+              <ul>
+                <h5 style="color: #f1f1f1;padding-bottom: 3rem;">USEFUL LINKS</h5>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Contact</a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" style="color: #f1f1f1; text-decoration: none; font-size: 20px;
+                  font-weight: 500;
+                  line-height: 32px;">Terms & Condition</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-4" style="background-color: #0F141C;margin-left: 7rem;" data-aos="fade-left" data-aos-duration="1000">
+              <h3 style="text-align: center;color: #f1f1f1;">Have a project <br>in your mind?</h3>
+
+              <div class="main" style="padding-left: 5rem;padding-top: 4rem;padding-bottom: 4rem;">
+                <div class="up">
+                  <button class="card1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero" class="instagram">
+                      <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <g transform="scale(8,8)">
+                          <path
+                            d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z">
+                          </path>
+                        </g>
+                      </g>
+                    </svg>
+                  </button>
+                  <button class="card2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30px" height="30px"
+                      class="twitter">
+                      <path
+                        d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="down">
+                  <button class="card3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"
+                      class="github">
+                      <path
+                        d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                      </path>
+                    </svg>
+                  </button>
+                  <button class="card4">
+                    <svg height="30px" width="30px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"
+                      class="discord">
+                      <path
+                        d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z">
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <div class="bottom-to-top">
+    <a href="#">
+        <i class="fa-solid fa-up-long"></i>
+    </a>
+</div>
+<script src="js/java.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script>
+    // Fixed header
+    $(window).scroll(function(){
+            if($(window).scrollTop() >100){
+                $(".header").addClass("fixed-header");
+            }
+
+            else{
+                $(".header").removeClass("fixed-header");
+            }
+
+        });
+</script>
+<!-- loader -->
+<script>
+  $(window).on('load', function () {
+      $('.loading-area').delay(3000).fadeOut('fast');
+      setTimeout(function () {
+          $("body").removeClass("hidden");
+      }, 2500)
+  })
+</script>
+</body>
+
+
+
+</html>
